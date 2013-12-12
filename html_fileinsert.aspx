@@ -47,7 +47,7 @@
             }
             if (!strResult.Contains(sdGuid))
             {
-                outputHTMLPage = "<html><head><title>Error</title></head><body>Error. GUID {98BE9CC8-FB40-4D06-AE59-E02CE019073A} not found.<br />" +
+                outputHTMLPage = "<html><head><title>Error</title></head><body>Error. GUID not found.<br />" +
                 "The following URL will prevent the mail from going through Epiphany <br />" +
                 "`URLTrackraw(\"http://thisIsaSkydriveEBMerrorURL-noGUID.wrong\")`</body></html>";
              }
